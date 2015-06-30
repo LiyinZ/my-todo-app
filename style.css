@@ -1,0 +1,240 @@
+/* fonts: Impact, fantasy; Helvetica, sans-serif;*/
+
+#bottom {
+	float: right;
+	width: 150px;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	border-bottom: 1px solid #FC6259;
+}
+
+#save, #clear {
+	cursor: pointer;
+	color: #FC6259;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	font-size: 18px;
+}
+
+#clear {
+	color: #d2d4d4;
+}
+
+#clear:hover {
+	color: #A1A194;
+}
+#save:hover {color:red;}
+/* float left elements */
+#save, .bull, .left {
+	float: left;
+}
+
+/* float right elements */
+#clear, .arrow-left, .delete, .right, #confirm {
+	float: right;
+}
+
+input, p {
+	outline: none;
+}
+
+.bull {
+	color: #A1A194;
+	margin-left: -40px;
+}
+
+#list li p {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	min-width: 350px;
+	max-width: 350px;
+	padding-left: 5px;
+	cursor: text;
+}
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	display: inline;
+	border-right:15px solid transparent;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.delete {
+	text-decoration: none;
+	color: #EBEFF0;
+	margin-right: -70px;
+	cursor: pointer;
+}
+
+.delete:hover {
+	color: #FC6259;
+}
+
+/*.container {
+	width: 510px;
+	margin: auto;
+}*/
+
+.container {
+	width: 1100px;
+	margin: auto;
+}
+
+.left, .right {
+	width: 250px;
+	text-align: center;
+	min-height: 150px;
+}
+
+.left {
+	border-bottom: 1px dashed #FC6259;
+}
+
+.center {
+	width: 500px;
+	margin: auto;
+}
+
+.right {
+	border-bottom: 1px dashed #838586;
+}
+
+h1 {
+	margin-left: 20px;
+	font-weight: normal;
+	font-family: Impact, fantasy;
+}
+
+h2 {
+	font-family: Impact, fantasy;
+	font-weight: normal;
+}
+
+.left h2 {
+	color: #FC6259;
+}
+
+.left h2:hover {
+	color: #FC3C2E;
+}
+
+.right h2 {
+	color: #000;
+}
+
+.right h2:hover {
+	color: #838586;
+}
+
+h3 {
+	font-family: Impact, fantasy;
+	font-weight: normal;
+	cursor: pointer;
+	color: #838586;
+}
+
+.left h3:hover {
+	color: #FC3C2E;
+}
+
+.right h3:hover {
+	color: #000;
+}
+
+#todo {
+	border: none;
+	border-left: 4px solid red;
+	border-bottom: 1px dotted red;
+	width: 75%;
+	height: 29px;
+	font-size: 25px;
+	text-indent: 10px;
+}
+
+#confirm, ul {
+	font-family: Helvetica, sans-serif;
+}
+
+#confirm {
+	height: 34px;
+	width: 100px;
+	background: #FC6259;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 21px;
+	text-align: center;
+	line-height: 34px;
+	cursor: pointer;
+}
+
+#confirm p {
+	display: inline;
+}
+
+ul {
+	margin-top: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+ul li {
+	list-style-type: none;
+	padding: 15px;
+	padding-right:30px;
+	font-size: 25px;
+	cursor: move;
+}
+
+ul li:nth-child(odd) {
+	background: #EBEFF0;
+}
+
+ul li:hover {
+	background: #FC6259;
+	color: #FFF;
+}
+
+
+ul li:hover .arrow-left {
+	border-right:15px solid #FFF;
+}
+
+ul li:hover .delete {
+	color: #FC6259;
+}
+
+ul li:hover .bull {
+	color: #000;
+}
+
+.left ul li, .right ul li{
+	font-size: 17px;
+	list-style-type: none;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.left ul li {
+	text-decoration: line-through;
+	color: #a2a2a2;
+}
+
+.left ul li:hover {
+	color: #fff;
+}
+
+.right ul li {
+	background: #FFF;
+	color: #a2a2a2;
+}
+
+.right ul li:hover {
+	background: #EBEFF0;
+	color: #a2a2a2;
+}

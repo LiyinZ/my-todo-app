@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="jquery.sortable.js"></script>
+        <script src='script.js'></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="left">
+				<h2>Completed</h2>
+				<ul id='completed'>
+				</ul>
+				<h3>Clear!</h3>
+			</div>
+			<div class="right">
+				<h2>Trash</h2>
+				<ul id='trash'>
+				</ul>
+				<h3>Empty!</h3>
+			</div>
+			<div class="center">
+			    <h1>My To-Do List</h1>
+			    <form name="input" method="post" action="">
+			    	<input type="text" id="todo" name="todo" placeholder="I'm going to..." autofocus>
+			    	<div id="confirm"><p>Add</p></div>
+				</form>
+			    <ul id="list" class="sortable">
+			    	<li><span class="bull">&bull;</span><p contenteditable>talk to ppl about the idea</p><a class="delete">x</a><div class="arrow-left"></div></li>
+			    	<li><span class="bull">&bull;</span><p contenteditable>exercise 3 days a week</p><a class="delete">x</a><div class="arrow-left"></div></li>
+			    	<li><span class="bull">&bull;</span><p contenteditable>plan diet</p><a class="delete">x</a><div class="arrow-left"></div></li>
+			    	<li><span class="bull">&bull;</span><p contenteditable>course plan</p><a class="delete">x</a><div class="arrow-left"></div></li>
+			    	<li><span class="bull">&bull;</span><p contenteditable>7 bone beef pot roast about 5 pounds</p><a class="delete">x</a><div class="arrow-left"></div></li>
+			    </ul>
+			    <p id='bottom'><span id='save'>Save</span> / <span id='clear'>Clear</span></p>
+			</div>
+		</div>
+	</body>
+</html>
